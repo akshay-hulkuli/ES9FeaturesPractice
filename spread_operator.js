@@ -21,3 +21,12 @@ let arr2 = [3, 4, 5];
 arr1 = [...arr1, ...arr2];
 
 console.log(arr1);
+
+const student = {
+    age:10,
+    height:5,
+    weight:50
+ }
+ const {age,...other} = student;
+ console.log(age)
+ console.log(other)
